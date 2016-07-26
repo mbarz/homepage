@@ -1,0 +1,29 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "my homepage",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mbarz/homepage.git"
+  },
+  "keywords": [
+    "homepage",
+    "muxe.de"
+  ],
+  "author": "Max-Richard Barz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbarz/homepage/issues"
+  },
+  "homepage": "https://github.com/mbarz/homepage"
+}
