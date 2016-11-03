@@ -1,0 +1,68 @@
+body {
+    background: #141010;
+    font-family: Courier New, Courier, monospace
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+#area1 {
+    color: #fff;
+    background: #a33;
+}
+
+#area2 {
+    color: #000;
+    background: #eee;
+}
+
+#footer {
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    background: #141010;
+    padding: 20px;
+}
+
+.contentbox > p {
+    font-size: 1em;
+}
+
+
+svg {
+    /*max-width: 50px;*/
+}
+
+a path {
+    fill: #100;
+}
+
+
+#area2 .col {
+    text-align: center;
+}
+#area2 a span {
+    color: #100;
+    font-weight: bold;
+}
+
+a {
+    color: #fff;
+    font-weight: bold;
+}
+
+a:hover path {
+    fill: #a33;
+}
+
+a:hover {
+    color: #a33;
+}
+
+/*#profil {
+    border-radius: 100%;
+    max-height: 200px;
+    max-width: 200px;
+}*/
