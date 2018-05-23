@@ -19,7 +19,7 @@ h1 {
   width: 100%;
   background: blue;
   color: white;
-  /* font-family: 'Roboto', monospace; */
+  font-family: 'Roboto', monospace;
 
   display: grid;
 
@@ -30,18 +30,20 @@ h1 {
 
 .head {
   background: #a33;
+  /* background: #5F4B8B; */
   padding: 40px 20px 0 20px;
   grid-area: top;
 }
 
 .section {
-  background: #eee;
+  background: #eef;
   padding: 20px 20px 20px 20px;
   grid-area: middle;
 }
 
 .footer {
   background: #141010;
+  /* background: #101028; */
   padding: 20px 20px 0 20px;
   grid-area: bottom;
 }
