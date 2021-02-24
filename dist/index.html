@@ -1,97 +1,120 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
-    <title></title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>muxe.de</title>
+    <meta name="description" content="muxe.de" />
+    <meta name="author" content="Max-Richard Barz" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto|Share+Tech+Mono"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link href="css/grid.css" rel="stylesheet" />
   </head>
-
   <body>
-    <div class="site">
-      <header class="head mainRow">
-        <div>
-          <h1>muxe.de</h1>
-        </div>
-      </header>
-      <section class="section mainRow">
-        <div>
-          <div class="clickable">
-            <a href="mailto:mbarz@muxe.de">
-              <i class="fa fa-envelope"></i>
-              <div class="iconLabel">email</div>
-            </a>
-          </div>
-          <div class="clickable">
-            <a href="https://www.facebook.com/barzm">
-              <i class="fa fa-facebook-official"></i>
-              <div class="iconLabel">facebook</div>
-            </a>
-          </div>
-          <div class="clickable">
-            <a href="https://twitter.com/maxrichardbarz">
-              <i class="fa fa-twitter"></i>
-              <div class="iconLabel">twitter</div>
-            </a>
-          </div>
-          <div class="clickable">
-            <a href="https://www.flickr.com/photos/muxede">
-              <i class="fa fa-flickr"></i>
-              <div class="iconLabel">flickr</div>
-            </a>
-          </div>
-          <div class="clickable">
-            <a href="https://bitbucket.org/mbarz/">
-              <i class="fa fa-bitbucket"></i>
-              <div class="iconLabel">bitbucket</div>
-            </a>
-          </div>
-          <div class="clickable">
-            <a href="https://github.com/mbarz/">
-              <i class="fa fa-github"></i>
-              <div class="iconLabel">github</div>
-            </a>
-          </div>
-        </div>
-      </section>
-      <footer class="footer mainRow">
-        <div>
-          <p>Max-Richard Barz, mbarz@muxe.de</p>
-          <p>
-            follow me on twitter, facebook, flickr, bitbucket, github or
-            wherever i might be. This page is contentless now
-          </p>
-          <h3>aux links</h3>
-          <ul>
-            <li>
-              <a href="http://futter.muxe.de"
-                >Speiseplan Siemens Braunschweig</a
-              >
-            </li>
-            <li>
-              <a href="http://muxede.deviantart.com/"
-                >me on deviantart (Langeweileblatt)</a
-              >
-            </li>
-            <li>
-              <a href="http://ipponboys.de">ipponboys.de</a>
-            </li>
-            <li>
-              <a href="http://braunschweiger-jc.de">braunschweiger-jc.de</a>
-            </li>
-          </ul>
-        </div>
-      </footer>
+    <div class="header">
+      <div class="divider"></div>
+      <h1>muxe.de</h1>
+      <div class="divider"></div>
     </div>
+
+    <div class="info-block">
+      <div class="avatar-container">
+        <img class="avatar" src="avatar.png" alt="avatar" />
+      </div>
+      <div class="info">
+        <span class="name">Max-Richard Barz</span><br />
+        Software-Developer in Brunswik, Germany<br />
+        Languages:
+        <ul class="languages">
+          <li>Typescript</li>
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SCSS</li>
+          <li>JAVA</li>
+          <li>C++</li>
+        </ul>
+        <br />
+        Frameworks:
+        <ul class="languages">
+          <li>Angular</li>
+          <li>React</li>
+          <li>Spring</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+        </ul>
+        <br />
+        Tools:
+        <ul class="languages">
+          <li>Docker</li>
+          <li>Kubernetes</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="divider"></div>
+      <h2>Links</h2>
+      <div class="divider"></div>
+    </div>
+
+    <table class="links-table">
+      <thead></thead>
+      <tbody>
+        <tr>
+          <td>[<span class="link-description">Mail</span>]</td>
+          <td class="link-icon"><i class="fas fa-envelope"></i></td>
+          <td>
+            <a href="mailto:mbarz@muxe.de">mailto:mbarz@muxe.de</a>
+          </td>
+        </tr>
+        <tr>
+          <td>[<span class="link-description">Github</span>]</td>
+          <td class="link-icon"><i class="fab fa-github"></i></td>
+          <td>
+            <a href="https://github.com/mbarz">https://github.com/mbarz</a>
+          </td>
+        </tr>
+        <tr>
+          <td>[<span class="link-description">Twitter</span>]</td>
+          <td class="link-icon"><i class="fab fa-twitter"></i></td>
+          <td>
+            <a href="https://twitter.com/maxrichardbarz"
+              >https://twitter.com/maxrichardbarz</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>[<span class="link-description">Deviantart</span>]</td>
+          <td class="link-icon"><i class="fab fa-deviantart"></i></td>
+          <td>
+            <a href="https://www.deviantart.com/muxede"
+              >https://www.deviantart.com/muxede</a
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- <div class="logo-show">
+      <i class="fab fa-java"></i>
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3"></i>
+      <i class="fab fa-sass"></i>
+      <i class="fab fa-angular"></i>
+      <i class="fab fa-react"></i>
+      <i class="fab fa-docker"></i>
+      <i class="fab fa-git"></i>
+      <i class="fab fa-atlassian"></i>
+      <i class="fab fa-aws"></i>
+      <i class="fab fa-bootstrap"></i>
+      <i class="fab fa-chrome"></i>
+      <i class="fab fa-npm"></i>
+    </div> -->
   </body>
 </html>
